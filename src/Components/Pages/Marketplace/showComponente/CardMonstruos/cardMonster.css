@@ -1,0 +1,79 @@
+.fire {
+    background: rgb(218, 10, 10);
+}
+.water {
+    background: rgb(45, 33, 216);
+}
+.grass {
+    background: rgb(12, 150, 42);
+}
+.rock {
+    background: rgb(143, 95, 8);
+    
+}
+.speed {
+    background-color: orange;
+    padding: 2px;
+    border-radius: 40%;
+    width: 5px;
+    height: 5px;
+}
+.img-fire {
+    background-image: url("https://i.postimg.cc/ZYLSnWvW/pngwing.com_(14).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+   
+}
+.img-water {
+    background-image: url("https://i.postimg.cc/5yQRcrp9/kisspng-drinking-water-logo-axalta-coating-systems-urine-test-5b08b703881d25-2283723715272977955575.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px; 
+}
+.img-grass {
+    background-image: url("https://i.postimg.cc/brW2KDM2/pngwing-com-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px; 
+}
+.img-rock {
+    background-image: url("https://i.postimg.cc/HW2mGXN1/Pngtree-brown-rock-clip-art-5830715.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px; 
+}
+.img-Legendario {
+    background-image: url("https://i.postimg.cc/zXQMMb6q/Icono-Legendary.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px; 
+}
+.img-Epico {
+    background-image: url("https://i.postimg.cc/26CXv4b7/Icono-Epic.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px; 
+}
+.img-Mitico {
+    background-image: url("https://i.postimg.cc/PxkQBF2R/Ic-mythic.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px; 
+}
+.Mitico {
+    box-shadow: 1px 1px 1px 1px rgb(230, 142, 61);
+}
+.active-card:hover {
+    transition: .3s;
+    margin-top: -10px;
+}
+
