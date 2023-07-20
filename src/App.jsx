@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/Marketplace" element={<Marketplace/>}/>
+          <Route path="/MARKETPLACE" element={<Marketplace/>}/>
           <Route path="/Aventura" element={<Aventura/>}/>
           <Route path="/PvP" element={<PagePVP/>}/>
           <Route path="/Connect Wallet" element={<Wallet/>}/>
