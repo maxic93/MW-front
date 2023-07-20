@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./Components/Pages/Home/Home"
 import Marketplace from "./Components/Pages/Marketplace/Marketplace"
-import Contacto from "./Components/Pages/Contacto/Contacto"
+import Aventura from "./Components/Pages/AventuraMap/Aventura"
 import ResponsiveAppBar from "./Components/NavBar/ResponsiveAppBar"
 import Footer from "./Components/Footer/Footer"
 
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/Marketplace" element={<Marketplace/>}/>
-          <Route path="/Aventura" element={<Contacto/>}/>
+          <Route path="/Aventura" element={<Aventura/>}/>
         </Routes>
       </BrowserRouter>
       <Footer/>
